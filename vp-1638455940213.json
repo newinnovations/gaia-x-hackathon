@@ -1,7 +1,7 @@
 {
   "@context" : [ "https://www.w3.org/2018/credentials/v1" ],
   "holder" : "did:key:z6MknGB5WMGt8vjHZGjXLfdziPxVWPCrXJCuC2uQV2YVShe9",
-  "id" : "urn:uuid:ae66efaf-4915-4394-a259-7fe81897cc9a",
+  "id" : "urn:uuid:1a61083f-5375-4bb8-ac43-68a0f959462b",
   "verifiableCredential" : [ {
     "@context" : [ "https://www.w3.org/2018/credentials/v1" ],
     "credentialSubject" : {
@@ -19,7 +19,7 @@
       "ethereumAddress" : {
         "id" : "0x4eaf878d5b1EdE7f434B6D2C00d9455F93cA7D0f"
       },
-      "id" : "did:key:z6MknGB5WMGt8vjHZGjXLfdziPxVWPCrXJCuC2uQV2YVShe9DID",
+      "id" : "did:key:z6MknGB5WMGt8vjHZGjXLfdziPxVWPCrXJCuC2uQV2YVShe9",
       "individualContactLegal" : "legal@my-brand.com",
       "individualContactTechnical" : "support@my-brand.com",
       "jurisdiction" : "Germany",
@@ -37,14 +37,14 @@
         "url" : "https://www.my-brand.com/"
       }
     },
-    "id" : "identity#verifiableID#c620fad8-c72b-492d-82e7-12ab47f42a43",
+    "id" : "identity#verifiableID#a474a513-66bb-4f59-9323-35d0014d1114",
     "issuanceDate" : "2020-08-24T14:13:44Z",
     "issuer" : "did:web:gaiax.delta-dao.com",
     "proof" : {
-      "created" : "2021-12-02T14:16:06Z",
+      "created" : "2021-12-02T14:38:19Z",
       "creator" : "did:web:gaiax.delta-dao.com",
       "domain" : "https://api.preprod.ebsi.eu",
-      "jws" : "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..UEQpIdD2-F_xaQ_BiP2ZmmjPIoIORDdjHBg36Mx-XHtqhobSnTsuis4LJy9rlZ78eLt2LMn3XR5Meb2cb-3KAA",
+      "jws" : "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..Q6KoGL8Gwd_Lma3wS_ZNYs0Q4LXtQAkFAK2BkJ4pINpiAQeMU7FU8Z2vzZvVNn1oMpcvFxuta7-s-FEj2D48BA",
       "nonce" : "73a4119b-ebd3-445a-b032-33b7ee692139",
       "type" : "Ed25519Signature2018"
     },
@@ -54,11 +54,11 @@
   "proof" : {
     "type" : "Ed25519Signature2018",
     "creator" : "did:key:z6MknGB5WMGt8vjHZGjXLfdziPxVWPCrXJCuC2uQV2YVShe9",
-    "created" : "2021-12-02T14:34:52Z",
+    "created" : "2021-12-02T14:39:00Z",
     "domain" : "https://api.preprod.ebsi.eu",
-    "nonce" : "f5d1b02e-0a81-4e63-8150-7caab51c9db7",
+    "nonce" : "12724d4d-8435-4e8e-b28e-ebfa0e0e8947",
     "proofPurpose" : "authentication",
     "verificationMethod" : "z6MknGB5WMGt8vjHZGjXLfdziPxVWPCrXJCuC2uQV2YVShe9#z6MknGB5WMGt8vjHZGjXLfdziPxVWPCrXJCuC2uQV2YVShe9",
-    "jws" : "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..X5hIUc6yLExYm_eFKdR9KDYjZc0pVJPKItgmOJelR2nAIxCns326ykpB01WRZCgSvwkKKiUYPlqWcywhIiOBDw"
+    "jws" : "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9.._Hvf4YOZX0THiqHIork9U87p3UypIpYqcTtK90KTP3_PvEpLAKhInP929HU95LIvnU6VhF_xgTPo42UGg6E9CQ"
   }
 }
