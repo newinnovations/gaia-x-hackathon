@@ -1,0 +1,64 @@
+{
+  "@context" : [ "https://www.w3.org/2018/credentials/v1" ],
+  "holder" : "did:key:z6MknGB5WMGt8vjHZGjXLfdziPxVWPCrXJCuC2uQV2YVShe9",
+  "id" : "urn:uuid:e5199e1b-24bf-4957-95b4-a2d9405638ad",
+  "verifiableCredential" : [ {
+    "@context" : [ "https://www.w3.org/2018/credentials/v1" ],
+    "credentialSubject" : {
+      "DNSpublicKey" : "your public key",
+      "brandName" : "my Brand",
+      "commercialRegister" : {
+        "countryName" : "Germany",
+        "locality" : "Some City",
+        "organizationName" : "e.g. Amtsgericht",
+        "organizationUnit" : "e.g. Registergericht",
+        "postalCode" : "12345",
+        "streetAddress" : "Sample Street 12"
+      },
+      "corporateEmailAddress" : "contact@my-brand.com",
+      "ethereumAddress" : {
+        "id" : "0x4eaf878d5b1EdE7f434B6D2C00d9455F93cA7D0f"
+      },
+      "id" : "did:key:z6MknGB5WMGt8vjHZGjXLfdziPxVWPCrXJCuC2uQV2YVShe9DID",
+      "individualContactLegal" : "legal@my-brand.com",
+      "individualContactTechnical" : "support@my-brand.com",
+      "jurisdiction" : "Germany",
+      "legalForm" : "Stock Company",
+      "legalRegistrationNumber" : "HRB 123456",
+      "legallyBindingAddress" : {
+        "countryName" : "Germany",
+        "locality" : "City",
+        "postalCode" : "12345",
+        "streetAddress" : "Sample Street 123"
+      },
+      "legallyBindingName" : "My Brand AG",
+      "trustState" : "trusted",
+      "webAddress" : {
+        "url" : "https://www.my-brand.com/"
+      }
+    },
+    "id" : "identity#verifiableID#c620fad8-c72b-492d-82e7-12ab47f42a43",
+    "issuanceDate" : "2020-08-24T14:13:44Z",
+    "issuer" : "did:web:gaiax.delta-dao.com",
+    "proof" : {
+      "created" : "2021-12-02T14:16:06Z",
+      "creator" : "did:web:gaiax.delta-dao.com",
+      "domain" : "https://api.preprod.ebsi.eu",
+      "jws" : "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..UEQpIdD2-F_xaQ_BiP2ZmmjPIoIORDdjHBg36Mx-XHtqhobSnTsuis4LJy9rlZ78eLt2LMn3XR5Meb2cb-3KAA",
+      "nonce" : "73a4119b-ebd3-445a-b032-33b7ee692139",
+      "type" : "Ed25519Signature2018"
+    },
+    "type" : [ "VerifiableCredential", "GaiaxCredential" ]
+  } ],
+  "type" : [ "VerifiablePresentation" ],
+  "proof" : {
+    "type" : "Ed25519Signature2018",
+    "creator" : "did:key:z6MknGB5WMGt8vjHZGjXLfdziPxVWPCrXJCuC2uQV2YVShe9",
+    "created" : "2021-12-02T14:17:10Z",
+    "domain" : "https://api.preprod.ebsi.eu",
+    "nonce" : "852387ff-74c1-469b-81cc-5a1fd512974d",
+    "proofPurpose" : "authentication",
+    "verificationMethod" : "z6MknGB5WMGt8vjHZGjXLfdziPxVWPCrXJCuC2uQV2YVShe9#z6MknGB5WMGt8vjHZGjXLfdziPxVWPCrXJCuC2uQV2YVShe9",
+    "jws" : "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..IRHCAtvKJ5hyDnF-t-meIW8s5DfiEYZCzOmYqrI-InIn4YWsZJvZyjjiHVmVM4_T25jueRq3VjPS7VgDUtOEAg"
+  }
+}
