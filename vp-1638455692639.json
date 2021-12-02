@@ -1,7 +1,7 @@
 {
   "@context" : [ "https://www.w3.org/2018/credentials/v1" ],
   "holder" : "did:key:z6MknGB5WMGt8vjHZGjXLfdziPxVWPCrXJCuC2uQV2YVShe9",
-  "id" : "urn:uuid:e5199e1b-24bf-4957-95b4-a2d9405638ad",
+  "id" : "urn:uuid:ae66efaf-4915-4394-a259-7fe81897cc9a",
   "verifiableCredential" : [ {
     "@context" : [ "https://www.w3.org/2018/credentials/v1" ],
     "credentialSubject" : {
@@ -54,11 +54,11 @@
   "proof" : {
     "type" : "Ed25519Signature2018",
     "creator" : "did:key:z6MknGB5WMGt8vjHZGjXLfdziPxVWPCrXJCuC2uQV2YVShe9",
-    "created" : "2021-12-02T14:17:10Z",
+    "created" : "2021-12-02T14:34:52Z",
     "domain" : "https://api.preprod.ebsi.eu",
-    "nonce" : "852387ff-74c1-469b-81cc-5a1fd512974d",
+    "nonce" : "f5d1b02e-0a81-4e63-8150-7caab51c9db7",
     "proofPurpose" : "authentication",
     "verificationMethod" : "z6MknGB5WMGt8vjHZGjXLfdziPxVWPCrXJCuC2uQV2YVShe9#z6MknGB5WMGt8vjHZGjXLfdziPxVWPCrXJCuC2uQV2YVShe9",
-    "jws" : "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..IRHCAtvKJ5hyDnF-t-meIW8s5DfiEYZCzOmYqrI-InIn4YWsZJvZyjjiHVmVM4_T25jueRq3VjPS7VgDUtOEAg"
+    "jws" : "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJFZERTQSJ9..X5hIUc6yLExYm_eFKdR9KDYjZc0pVJPKItgmOJelR2nAIxCns326ykpB01WRZCgSvwkKKiUYPlqWcywhIiOBDw"
   }
 }
